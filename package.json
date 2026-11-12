@@ -9,10 +9,15 @@
   "scripts": {
     "start": "node sources/server.js",
     "dev": "node --watch sources/server.js",
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "express": "^5.1.0",
     "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "prettier": "3.10.1"
   }
 }

@@ -9,7 +9,10 @@ const realDate = (value) => {
 
 export const submissionSchema = z.strictObject({
   f0: z.string().trim().min(5),
-  f1: z.string().regex(/^\d+$/).refine((value) => Number(value) >= 10 && Number(value) <= 99),
+  f1: z
+    .string()
+    .regex(/^\d+$/)
+    .refine((value) => Number(value) >= 10 && Number(value) <= 99),
   f2: z.string().regex(/^[a-z]{3}$/),
   f3: z.email(),
   f4: z.literal('42'),
