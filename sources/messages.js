@@ -1,0 +1,27 @@
+export const errorMessages = [
+  "Nagy büdös lófaszt!",
+  "Már megint mi a faszt akarsz?!",
+  "Hát ezt sikerült jól elbaszni!",
+  "Nem jó, bazmeg. Sehol se jó.",
+  "Ezt most komolyan gondoltad?",
+  "A kurva életbe már, hát nem igaz!",
+  "Egy rakás szar az egész. Próbáld újra!",
+  "Ezt mégis honnan a picsából szedted?!",
+  "Még mindig szar. De legalább kitartó vagy.",
+  "Hát nem hiszem el, hogy ez sem sikerült!",
+  "NEM. A jó kurva életbe, NEM!",
+  "Menjél már a faszomba ezzel!",
+  "A rendszer szerint ez egy nagy adag lófasz.",
+  "Ennyiből akár az Entert is fejelhetnéd.",
+  "Szép próbálkozás. Kár, hogy szar.",
+  "Te jó ég, bazmeg, ezt még a backend is megkönnyezte!",
+  "Hát most komolyan, mi a kurva istent kezdjek ezzel?!",
+  "A jó édes faszomat már, hát nincs ennek vége?!",
+  "Baszki, ez nem adat, ez egy kibaszott segélykiáltás!",
+  "A kurva anyját ennek az egész rohadt validációnak!",
+  "Ezt a szart még a szemétgyűjtő se fogadná be!",
+  "A faszom kivan, próbáld újra, te szerencsétlen!",
+  "Hogy baszná meg egy talicska aprómajom ezt a requestet!",
+  "Na menjél már a bús picsába ezzel a bemenettel!"
+];
+export const winMessage = "Na bazmeg. Ezt tényleg megcsináltad?! MOST BOLDOG VAGY?!";
