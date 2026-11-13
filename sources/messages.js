@@ -18,6 +18,8 @@ export const errorMessages = [
   'Hogy a bánatos lófaszba sikerült ezt így összerakni?!',
   'A faszom se fogja kitalálni, mit szerettél volna!',
   'Bazmeg, az adatbázis kérte, hogy ne engedjelek a közelébe!',
+  'Elmehetsz te a Rákóczi téri kivénhedt kéjnők vörösrézzel kivert, kárpitozott, foncsérozott, nagy büdös, vasporos valagába!',
+  'Mi a megmeredt fácán faszáért írtad azt oda?!',
   'Te jó ég, bazmeg, ezt még a backend is megkönnyezte!',
   'Hát most komolyan, mi a kurva istent kezdjek ezzel?!',
   'A jó édes faszomat már, hát nincs ennek vége?!',
