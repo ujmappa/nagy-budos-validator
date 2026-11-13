@@ -44,7 +44,7 @@ A válasz **soha** nem tartalmazza a hibás mezők nevét, az elvárt formátumo
 ## Felépítés
 
 - `sources/schema.js` — a kilenc valódi szerveroldali Zod-szabály (és csak itt)
-- `sources/messages.js` — 30 magyar hibaüzenet
+- `sources/messages.js` — 32 magyar hibaüzenet
 - `sources/app.js` — Express API, logolás, statikus frontend
 - `sources/server.js` — indítás
 - `sources/public/index.html` — a korábbi UI, kizárólag API-kliens

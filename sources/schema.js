@@ -1,6 +1,5 @@
 import { z } from 'zod';
 
-// Intentionally entirely server-side. Never expose this schema to the browser.
 const realDate = (value) => {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
   const date = new Date(`${value}T00:00:00.000Z`);

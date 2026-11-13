@@ -21,8 +21,6 @@ export function createApp({
       logger.info?.('[validator] Valid submission');
       return response.json({ success: true, message: winMessage });
     }
-
-    // Real diagnostics exist, but ONLY in server logs; never in the response.
     logger.info?.(
       '[validator] Invalid submission',
       parsed.error.issues.map((issue) => ({
